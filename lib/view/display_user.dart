@@ -20,13 +20,14 @@ class _DisplayUserViewState extends State<DisplayUserView> {
         title: const Text("View Users"),
         centerTitle: true,
         elevation: 4,
+        backgroundColor: Colors.green,
       ),
       body: ListView.builder(
           itemCount: lstUsers.length,
           itemBuilder: (context, index) {
             return GestureDetector(
               child: Container(
-                color: Colors.blue,
+                color: Colors.green,
                 height: 150,
                 width: double.infinity,
                 child: Card(
